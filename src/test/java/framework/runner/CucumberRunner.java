@@ -9,7 +9,8 @@ import org.junit.runner.RunWith;
         features = {"src/test/resources/scenario"},
         glue = {"framework.steps"},
         tags = {"@checkCreditCalculator"},
-        plugin = {"framework.utils.MyAllureListener"}
+        plugin = {"framework.utils.MyAllureListener",
+                "io.qameta.allure.cucumber5jvm.AllureCucumber5Jvm"}
 )
 public class CucumberRunner {
 
