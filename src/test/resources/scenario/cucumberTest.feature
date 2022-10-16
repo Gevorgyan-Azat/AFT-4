@@ -1,6 +1,6 @@
 # language: ru
 
-
+@All
 Функция: Ипотека
 
   @checkCreditCalculator
